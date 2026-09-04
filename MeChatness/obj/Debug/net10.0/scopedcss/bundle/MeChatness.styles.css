@@ -1,0 +1,67 @@
+/* /Views/Login/SignIn.cshtml.rz.scp.css */
+/* CSS for SignIn view */
+
+main[b-lz8ekntlgl] {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at top left, #4A4A4A #FFDD55);
+    background-color: black;
+}
+
+.signin-section[b-lz8ekntlgl] {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #E0DFDF;
+}
+/* /Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-untbak52rx] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-untbak52rx] {
+  color: #0077cc;
+}
+
+.btn-primary[b-untbak52rx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-untbak52rx], .nav-pills .show > .nav-link[b-untbak52rx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-untbak52rx] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-untbak52rx] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-untbak52rx] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-untbak52rx] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-untbak52rx] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
