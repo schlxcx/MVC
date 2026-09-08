@@ -1,7 +1,25 @@
 ﻿@{
-    ViewData["Title"] = "Register";
-    ViewData["ShowHeader"] = false; // Setze ShowHeader auf false, um den Header auszublenden"
+    Layout = "_LayoutJustContent"; // Setze das Layout auf _Layout.cshtml
+    ViewData["Title"] = "Anmelden";
 }
-<section class="signin-section"></section>
 
-<section class="signup-section"></section>
+<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+<main>
+    <section class="signin-section">
+        <button></button>
+    </section>
+    <section class="signup-section">
+        <h1>Registrieren</h1>
+        <form method="post" asp-controller="Login" asp-action="SignUp">
+            <div class="form-group">
+                <label for="newUsername">Benutzername</label>
+                <input type="text" class="form-control" id="newUsername" name="newUsername" required />
+            </div>
+            <div class="form-group">
+                <label for="newPassword">Passwort</label>
+                <input type="password" class="form-control" id="newPassword" name="newPassword" required />
+            </div>
+            <button type="submit" class="btn btn-success">Registrieren</button>
+        </form>
+    </section>
+</main>

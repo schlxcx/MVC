@@ -22,7 +22,6 @@ C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\o
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\scopedcss\bundle\MeChatness.styles.css
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\scopedcss\projectbundle\MeChatness.bundle.scp.css
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\z4lw6szlac-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\sj7xe32llq-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\1wupv3snlv-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\7ifmpevhsw-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -115,6 +114,8 @@ C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\o
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\401ff5yvwi-{0}-1cm340wdt1-1cm340wdt1.gz
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\j57l4ntf4z-{0}-rc5zfsl17x-rc5zfsl17x.gz
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\wga42kwyjl-{0}-gl6vd3z7s5-gl6vd3z7s5.gz
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\scopedcss\Views\Login\SignIn.cshtml.rz.scp.css
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\wp0ymgz2a2-{0}-brcp0p0r6a-brcp0p0r6a.gz
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\rengozrpfb-{0}-brcp0p0r6a-brcp0p0r6a.gz
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\z4lw6szlac-{0}-nv1yz1twsg-nv1yz1twsg.gz
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\scopedcss\Views\Shared\_LayoutJustContent.cshtml.rz.scp.css
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\wp0ymgz2a2-{0}-6mmbstp5oj-6mmbstp5oj.gz
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\rengozrpfb-{0}-6mmbstp5oj-6mmbstp5oj.gz
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\obj\Debug\net10.0\compressed\eqtsm6hyct-{0}-rfdp7xh1s7-rfdp7xh1s7.gz

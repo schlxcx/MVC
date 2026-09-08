@@ -1,3 +1,24 @@
+wwwroot\assets\icons\account-placeholder.svg
+wwwroot\assets\icons\add-icon.svg
+wwwroot\assets\icons\announcement-icon.svg
+wwwroot\assets\icons\back-icon.svg
+wwwroot\assets\icons\call-icon.svg
+wwwroot\assets\icons\chat-icon.svg
+wwwroot\assets\icons\check-icon.svg
+wwwroot\assets\icons\company-icon.svg
+wwwroot\assets\icons\cross-icon.svg
+wwwroot\assets\icons\delete-icon.svg
+wwwroot\assets\icons\files-icon.svg
+wwwroot\assets\icons\image-placeholder.svg
+wwwroot\assets\icons\mechatness-logo-light.svg
+wwwroot\assets\icons\mechatness-logo.svg
+wwwroot\assets\icons\meeting-icon.svg
+wwwroot\assets\icons\search-icon.svg
+wwwroot\assets\icons\select-icon.svg
+wwwroot\assets\icons\send-icon.svg
+wwwroot\assets\icons\sidebar-option-icon.svg
+wwwroot\assets\icons\video-call-icon.svg
+wwwroot\assets\icons\webcam-icon.svg
 wwwroot\css\site.css
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -60,27 +81,28 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\assets\icons\account-placeholder.svg
-wwwroot\assets\icons\add-icon.svg
-wwwroot\assets\icons\announcement-icon.svg
-wwwroot\assets\icons\back-icon.svg
-wwwroot\assets\icons\call-icon.svg
-wwwroot\assets\icons\chat-icon.svg
-wwwroot\assets\icons\check-icon.svg
-wwwroot\assets\icons\company-icon.svg
-wwwroot\assets\icons\delete-icon.svg
-wwwroot\assets\icons\files-icon.svg
-wwwroot\assets\icons\image-placeholder.svg
-wwwroot\assets\icons\mechatness-logo-light.svg
-wwwroot\assets\icons\meeting-icon.svg
-wwwroot\assets\icons\search-icon.svg
-wwwroot\assets\icons\select-icon.svg
-wwwroot\assets\icons\send-icon.svg
-wwwroot\assets\icons\sidebar-option-icon.svg
-wwwroot\assets\icons\video-call-icon.svg
-wwwroot\assets\icons\webcam-icon.svg
-wwwroot\assets\icons\cross-icon.svg
-wwwroot\assets\icons\mechatness-logo.svg
+wwwroot\css\login.css
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\account-placeholder.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\add-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\announcement-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\back-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\call-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\chat-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\check-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\company-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\cross-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\delete-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\files-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\image-placeholder.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\mechatness-logo-light.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\mechatness-logo.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\meeting-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\search-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\select-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\send-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\sidebar-option-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\video-call-icon.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\webcam-icon.svg
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\css\site.css
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\js\site.js
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -142,24 +164,4 @@ C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\w
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\account-placeholder.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\add-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\announcement-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\back-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\call-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\chat-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\check-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\company-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\delete-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\files-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\image-placeholder.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\mechatness-logo-light.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\meeting-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\search-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\select-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\send-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\sidebar-option-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\video-call-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\webcam-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\cross-icon.svg
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\assets\icons\mechatness-logo.svg
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\MeChatness\MeChatness\wwwroot\css\login.css

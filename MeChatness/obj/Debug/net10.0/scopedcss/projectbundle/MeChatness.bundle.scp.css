@@ -1,24 +1,26 @@
-/* /Views/Login/SignIn.cshtml.rz.scp.css */
-/* CSS for SignIn view */
-
-main[b-lz8ekntlgl] {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background: radial-gradient(circle at top left, #4A4A4A #FFDD55);
-    background-color: black;
-}
-
-.signin-section[b-lz8ekntlgl] {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 1px solid #E0DFDF;
-}
 /* /Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+
+body[b-untbak52rx] {
+    padding: 0;
+}
+
+html[b-untbak52rx],
+body[b-untbak52rx] {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pb-3[b-untbak52rx] {
+    padding-bottom: 0 !important;
+}
+
+
+.container[b-untbak52rx] {
+    margin: 0;
+    padding: 0;
+}
 
 a.navbar-brand[b-untbak52rx] {
   white-space: normal;
@@ -64,4 +66,15 @@ button.accept-policy[b-untbak52rx] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+/* /Views/Shared/_LayoutJustContent.cshtml.rz.scp.css */
+/* CSS for _Layout-login view */
+
+main[b-wiz2256jl9] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at top left, #4a4a4a 25%, #ffdd55 100%);
 }

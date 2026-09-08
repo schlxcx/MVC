@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/conno/Desktop/indivituelle Projekte/02_Projekte/MeChatness/MeChatness/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/conno/Desktop/indivituelle Projekte/02_Projekte/MeChatness/MeChatness/Views/Login/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -51,10 +55,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/conno/Desktop/indivituelle Projekte/02_Projekte/MeChatness/MeChatness/Views/Login/SignIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-lz8ekntlgl
-
 [C:/Users/conno/Desktop/indivituelle Projekte/02_Projekte/MeChatness/MeChatness/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-untbak52rx
+
+[C:/Users/conno/Desktop/indivituelle Projekte/02_Projekte/MeChatness/MeChatness/Views/Shared/_LayoutJustContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRKdXN0Q29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wiz2256jl9
