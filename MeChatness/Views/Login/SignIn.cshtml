@@ -7,21 +7,26 @@
 <main>
     <section class="signin-section">
         <h1>Anmelden</h1>
-        <form method="post" asp-controller="Login" asp-action="SignIn">
+        <form method="post" asp-controller="Login" asp-action="CheckSignIn">
             <fieldset>
                 <legend>Benutzername</legend>
+                <input type="text" class="form-control" id="username" name="Username" placeholder=" " required />
                 <label for="username">Benutzername</label>
-                <input type="text" class="form-control" id="username" name="username" required />
             </fieldset>
             <fieldset>
                 <legend>Passwort</legend>
+                <input type="password" class="form-control" id="password" name="Password" placeholder=" " required />
                 <label for="password">Passwort</label>
-                <input type="password" class="form-control" id="password" name="password" required />
             </fieldset>
+            <label>
+                <input type="checkbox" id="remember-browser" name="RememberBrowser" />
+                Browser merken
+            </label>
+            <p class="error">@ViewData["ErrorSignIn"]</p>
             <button type="submit" class="btn btn-primary">Anmelden</button>
         </form>
     </section>
     <section class="signup-section">
-        <button>Registrieren</button>
+        <a class="btn btn-primary" asp-action="SignUp">Registrieren</a>
     </section>
 </main>

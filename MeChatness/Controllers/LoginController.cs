@@ -11,6 +11,7 @@ public class LoginController : Controller
 
     public IActionResult SignIn()
     {
+        ViewData["ErrorSignIn"] = "Benutzername oder Passwort ist falsch";
         return View();
     }
 }

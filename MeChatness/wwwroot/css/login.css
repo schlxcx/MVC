@@ -2,7 +2,9 @@
     /*  Variablen  */
     --font-color: black;
     --font-size-medium: clamp(1em, 2vw, 2em);
+    --font-size-small: clamp(0.6em, 2vw, 1.2em);
     --font-size-title: clamp(3em, 2.5vw, 6em);
+    --border-radius: 20px; 
 }
 
 main {
@@ -43,16 +45,22 @@ h1::after {
 }
 
 form {
-    width: 40%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 form fieldset {
+    align-self: center;
     border: 1px solid var(--font-color);
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     margin: auto 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    height: clamp(3em, 1vw, 5em);
+    position: relative;
+    padding-top: 0;
 }
 
 form fieldset legend {
@@ -61,22 +69,82 @@ form fieldset legend {
     width: auto;
     margin-left: 10px;
     display: none;
+    font-size: var(--font-size-small);
 }
 
-    form fieldset label {
-        position: absolute;
-        font-size: var(--font-size-medium);
-    }
+form fieldset label {
+    display: inline;
+    position: absolute;
+    font-size: var(--font-size-medium);
+    margin-left: 0.5em;
+    top: 0;
+}
 
 form fieldset input {
     object-fit: fill;
     font-size: var(--font-size-medium);
     width: 100%;
     height: 100%;
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 0.2em 0 0.2em;
+}
+
+form fieldset input:focus,
+form fieldset input:not(:placeholder-shown) {
+    margin: -12px 0.2em 0 0.2em;
+    outline: none !important;
+    box-shadow: none !important;
+    outline: none; /* keine Outline bei focus */
+}
+
+form fieldset input:focus + label, /* + Element danach */
+form fieldset input:not(:placeholder-shown) + label {
+    display: none;
+}
+
+form fieldset legend:has(+ input:focus),
+form fieldset legend:has(+ input:not(:placeholder-shown)) {
+    display: inline;
+}
+form fieldset:has(> input:focus),
+form fieldset:has(> input:not(:placeholder-shown)) {
+    height: 3.8em;
+    margin-top: -12px;
+}
+
+form > label {
+    font-size: var(--font-size-small);
+    align-self: flex-start;
+    margin-left: 0.5em;
+}
+
+form > label input[type="checkbox"] {
+    transform: scale(1.4);
+    margin-bottom: 1.5em;
+}
+
+form button {
+    width: 100%;
+    aspect-ratio: 32/5;
+}
+
+.error {
+    color: darkred;
+}
+
+a[class="btn btn-primary"] {
+    width: 100%;
+    aspect-ratio: 16/4;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-title);
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     main {
         flex-direction: column
     }

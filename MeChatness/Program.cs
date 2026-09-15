@@ -20,9 +20,15 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// Spezialfälle -> Zuerst das, wenn es nicht geht, geht es zu default
+//app.MapControllerRoute(
+//    name: "login",
+//    pattern: "{controller=Login}/{action=SignIn}")
+//    .WithStaticAssets();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Home}/{action=Index}/{id:int?}")
     .WithStaticAssets();
 
 
