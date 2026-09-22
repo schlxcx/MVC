@@ -240,4 +240,9 @@ C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_We
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\MeChatness.genruntimeconfig.cache
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\ref\MeChatness.dll
 C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\MeChatness.csproj.Up2Date
-C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\compressed\eqtsm6hyct-{0}-y2j2brgy7c-y2j2brgy7c.gz
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\Data\LoginDataTestFile.json
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\Isopoh.Cryptography.SecureArray.dll
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\MeChatness.csproj.AssemblyReference.cache
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\obj\Debug\net10.0\compressed\eqtsm6hyct-{0}-g3whr2bzof-g3whr2bzof.gz

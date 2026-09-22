@@ -113,6 +113,13 @@ form fieldset:has(> input:not(:placeholder-shown)) {
     margin-top: -12px;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 9999s ease-out 0s; /* macht das beim autofill die Hintergrund Farbe korrekt bleibt */
+}
+
 form > label {
     font-size: var(--font-size-small);
     align-self: flex-start;
