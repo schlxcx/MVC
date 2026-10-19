@@ -37,18 +37,13 @@ public static class LoginJsonManager
         return signInDataList;
     }
 
-    public async static Task<(bool isSuccessful, string message, int? id)> TrySaveUserAsync(SignUpRequest signUpRequest)
+    public async static Task<(bool isSuccessful, List<SignUpError>? errors, int? id)> TrySaveUserAsync(SignUpRequest signUpRequest)
     {
         List<LoginDataModel>? dataList = await TryLoadAllUsersAsync() ?? new List<LoginDataModel>();
 
-        if (string.IsNullOrWhiteSpace(signUpRequest.Username) || string.IsNullOrWhiteSpace(signUpRequest.Password) || string.IsNullOrWhiteSpace(signUpRequest.Email))
-        {
-            return (false, "Username, password and email cannot be empty", null);
-        }
-
         if (dataList.Any(u => u.Username == signUpRequest.Username))
         {
-            return (false, "User already exists", null);
+            return (false, new List<SignUpError> { SignUpError.usernameAlreadyTaken }, null);
         }
 
         int id = dataList.Count > 0 ? dataList.Max(u => u.Id) + 1 : 1;
@@ -56,13 +51,13 @@ public static class LoginJsonManager
         LoginDataModel newUser = new LoginDataModel
         {
             Username = signUpRequest.Username,
-            Password = hashedPassword,
+            Password = signUpRequest.Password,
             Email = signUpRequest.Email
         };
 
         dataList.Add(newUser);
         string json = JsonSerializer.Serialize(dataList, new JsonSerializerOptions { WriteIndented = true });
         await File.WriteAllTextAsync(RouteToJson, json);
-        return (true, "User created successfully", id);
+        return (true, null, id);
     }
 }

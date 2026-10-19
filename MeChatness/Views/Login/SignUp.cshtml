@@ -10,27 +10,33 @@
     </section>
     <section class="signup-section">
         <h1>Registrieren</h1>
-        <form method="post" asp-controller="Login" asp-action="SignIn">
+        <form method="post" asp-controller="Login" asp-action="SignUpUser" novalidate>
             <fieldset>
                 <legend>Benutzername</legend>
                 <input type="text" class="form-control" id="username" name="Username" placeholder=" " required />
                 <label for="username">Benutzername</label>
             </fieldset>
+            <p class="error">@ViewData["invalidUsername"]@ViewData["usernameAlreadyTaken"]</p>
             <fieldset>
                 <legend>E-Mail</legend>
                 <input type="email" class="form-control" id="email" name="Email" placeholder=" " required />
                 <label for="email">E-Mail</label>
             </fieldset>
+            <p class="error">@ViewData["invalidEmail"]</p>
             <fieldset>
                 <legend>Passwort</legend>
                 <input type="password" class="form-control" id="password" name="Password" placeholder=" " required />
                 <label for="password">Passwort</label>
             </fieldset>
+            <p class="error">@ViewData["passwordTooShort"]</p>
             <label>
-                <input type="checkbox" id="remember-browser" name="RememberBrowser" />
-                Browser merken
+                <input type="checkbox" id="accept-terms" name="AcceptTerms" />
+                Nutzerbedingungen und Datenschutzbestimmungen akzeptieren
             </label>
+                <p class="error">@ViewData["invalidRequest"]</p>
+                <p class="error">@ViewData["ErrorSignUp"]</p>
             <button type="submit" class="btn btn-primary">Registrieren</button>
+            
         </form>
     </section>
 </main>

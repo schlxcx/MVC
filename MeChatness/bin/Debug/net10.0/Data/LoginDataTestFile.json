@@ -1,12 +1,20 @@
-﻿[
+[
   {
+    "Id": 1,
     "Username": "TestUser",
-    "Password": "$argon2id$v=19$m=65536,t=3,p=1$i0Oi8CfmPUpktWejvwr3yg$JcndibJZcw4r1PlKCFMIXgYy/9zVwEHPGY+t0GUZK+o",
-    "PasswordComment": "Password12345!"
+    "Password": "$argon2id$v=19$m=65536,t=3,p=1$i0Oi8CfmPUpktWejvwr3yg$JcndibJZcw4r1PlKCFMIXgYy/9zVwEHPGY\u002Bt0GUZK\u002Bo",
+    "Email": null
   },
   {
+    "Id": 2,
     "Username": "MaxMustermann",
-    "Password": "$argon2id$v=19$m=65536,t=3,p=1$i0Oi8CfmPUpktWejvwr3yg$JcndibJZcw4r1PlKCFMIXgYy/9zVwEHPGY+t0GUZK+o",
-    "PasswordComment": "Password12345!"
+    "Password": "$argon2id$v=19$m=65536,t=3,p=1$i0Oi8CfmPUpktWejvwr3yg$JcndibJZcw4r1PlKCFMIXgYy/9zVwEHPGY\u002Bt0GUZK\u002Bo",
+    "Email": null
+  },
+  {
+    "Id": 0,
+    "Username": "Test",
+    "Password": "test12345",
+    "Email": "test@gmail.com"
   }
 ]
