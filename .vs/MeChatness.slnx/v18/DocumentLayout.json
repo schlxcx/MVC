@@ -1,50 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\",
+  "WorkspaceRootPath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|c:\\users\\conno\\desktop\\indivituelle projekte\\02_projekte\\01_messenger_meeting_webseite\\mechatness\\mechatness\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|c:\\users\\conno\\desktop\\indivituelle projekte\\02_projekte\\01_messenger_meeting_webseite\\mechatness\\mechatness\\views\\home\\dbtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\views\\home\\dbtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\views\\login\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\views\\login\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\views\\login\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\views\\login\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\models\\signuperror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\models\\signuperror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\dataaccess\\loginjsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\dataaccess\\loginjsonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\models\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\models\\tokentype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|p:\\00_projects\\schulprojekte\\01_mechatness\\mechatness\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|c:\\users\\conno\\desktop\\indivituelle projekte\\02_projekte\\01_messenger_meeting_webseite\\mechatness\\mechatness\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C76156D9-D8A4-3F7F-C8CF-E3B2BB9F755C}|MeChatness\\MeChatness.csproj|solutionrelative:mechatness\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Login\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "MeChatness\\Views\\Login\\SignIn.cshtml",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Login\\SignIn.cshtml",
-              "RelativeToolTip": "MeChatness\\Views\\Login\\SignIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-19T21:14:17.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Controllers\\LoginController.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "MeChatness\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwEAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T21:11:57.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SignUpRequest.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\SignUpRequest.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Models\\SignUpRequest.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\SignUpRequest.cs",
-              "RelativeToolTip": "MeChatness\\Models\\SignUpRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T21:09:13.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Login\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "MeChatness\\Views\\Login\\SignUp.cshtml",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Login\\SignUp.cshtml",
-              "RelativeToolTip": "MeChatness\\Views\\Login\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABeAAAAAAAAAA==",
+              "Title": "DbTest.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\Views\\Home\\DbTest.cshtml",
+              "RelativeDocumentMoniker": "MeChatness\\Views\\Home\\DbTest.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\Views\\Home\\DbTest.cshtml",
+              "RelativeToolTip": "MeChatness\\Views\\Home\\DbTest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-19T21:00:26.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginJsonManager.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\DataAccess\\LoginJsonManager.cs",
-              "RelativeDocumentMoniker": "MeChatness\\DataAccess\\LoginJsonManager.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\DataAccess\\LoginJsonManager.cs",
-              "RelativeToolTip": "MeChatness\\DataAccess\\LoginJsonManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowC0AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:53:49.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignUpError.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\SignUpError.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Models\\SignUpError.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\SignUpError.cs",
-              "RelativeToolTip": "MeChatness\\Models\\SignUpError.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T20:41:57.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Chat.cshtml",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Home\\Chat.cshtml",
-              "RelativeDocumentMoniker": "MeChatness\\Views\\Home\\Chat.cshtml",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Views\\Home\\Chat.cshtml",
-              "RelativeToolTip": "MeChatness\\Views\\Home\\Chat.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-19T18:38:38.094Z",
+              "WhenOpened": "2026-10-20T08:29:11.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MeChatness\\Controllers\\HomeController.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MeChatness\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:35:37.84Z",
+              "WhenOpened": "2026-10-20T08:04:43.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TokenType.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\TokenType.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Models\\TokenType.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Models\\TokenType.cs",
-              "RelativeToolTip": "MeChatness\\Models\\TokenType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:28:21.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Services\\AuthService.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Services\\AuthService.cs",
-              "RelativeToolTip": "MeChatness\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:18:07.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "MeChatness\\Services\\TokenService.cs",
-              "ToolTip": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\Services\\TokenService.cs",
-              "RelativeToolTip": "MeChatness\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T18:17:54.95Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MeChatness\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\appsettings.Development.json",
+              "RelativeToolTip": "MeChatness\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T08:03:08.267Z",
               "EditorCaption": ""
             }
           ]

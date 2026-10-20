@@ -47,6 +47,19 @@
             "related": ".xml"
           }
         }
+      },
+      "MySqlConnector/2.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -116,11 +129,43 @@
         "lib/netstandard2.0/Isopoh.Cryptography.SecureArray.dll",
         "lib/netstandard2.0/Isopoh.Cryptography.SecureArray.xml"
       ]
+    },
+    "MySqlConnector/2.6.2": {
+      "sha512": "dlTc/tsBa42szdvpj4nrHvQVUb0gsMwR9HT6J0Zz2OSqfP0CdYlGw+qQPqCpbnO97idfvclSjKYtM6y5QaBQaQ==",
+      "type": "package",
+      "path": "mysqlconnector/2.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/MySqlConnector.dll",
+        "lib/net10.0/MySqlConnector.xml",
+        "lib/net462/MySqlConnector.dll",
+        "lib/net462/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net48/MySqlConnector.dll",
+        "lib/net48/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net8.0/MySqlConnector.dll",
+        "lib/net8.0/MySqlConnector.xml",
+        "lib/net9.0/MySqlConnector.dll",
+        "lib/net9.0/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.6.2.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Isopoh.Cryptography.Argon2 >= 2.0.0"
+      "Isopoh.Cryptography.Argon2 >= 2.0.0",
+      "MySqlConnector >= 2.6.2"
     ]
   },
   "packageFolders": {
@@ -130,11 +175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj",
+      "projectUniqueName": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj",
       "projectName": "MeChatness",
-      "projectPath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj",
+      "projectPath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj",
       "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-      "outputPath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\obj\\",
+      "outputPath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,6 +224,10 @@
           "Isopoh.Cryptography.Argon2": {
             "target": "Package",
             "version": "[2.0.0, )"
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.6.2, )"
           }
         },
         "imports": [

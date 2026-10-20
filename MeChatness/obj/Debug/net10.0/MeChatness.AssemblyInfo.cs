@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeChatness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ab693114ab29e7cb260020f2b1905c053a3c681")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a83e7b83a884fe0ca2b97e4628f9d6627e65a65")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeChatness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeChatness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

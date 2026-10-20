@@ -374,3 +374,5 @@ P:\00_Projects\Schulprojekte\01_MeChatness\MeChatness\obj\Debug\net10.0\MeChatne
 P:\00_Projects\Schulprojekte\01_MeChatness\MeChatness\obj\Debug\net10.0\MeChatness.genruntimeconfig.cache
 P:\00_Projects\Schulprojekte\01_MeChatness\MeChatness\obj\Debug\net10.0\ref\MeChatness.dll
 P:\00_Projects\Schulprojekte\01_MeChatness\MeChatness\bin\Debug\net10.0\Data\TokenDataTestFile.json
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\Data\TokenDataTestFile.json
+C:\Users\conno\Desktop\indivituelle Projekte\02_Projekte\01_Messenger_Meeting_Webseite\MeChatness\MeChatness\bin\Debug\net10.0\MySqlConnector.dll
