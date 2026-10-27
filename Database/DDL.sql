@@ -31,6 +31,7 @@ CREATE TABLE User (
     email VARCHAR(255) NOT NULL,
     lastname VARCHAR(20),
     firstname VARCHAR(20),
+    password VARCHAR(255),
     p_picture_path VARCHAR(255),
     b_picture_path VARCHAR(255),
     color VARCHAR(20),

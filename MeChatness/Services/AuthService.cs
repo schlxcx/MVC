@@ -3,13 +3,18 @@ using MeChatness.Models;
 
 namespace MeChatness.Services;
 
-public static class AuthService
+public class AuthService
 {
-    public async static Task<List<TokenDataModel>?> SignInAsync(SignInRequest request)
+    private readonly LoginSqlManager _loginSqlManager;
+
+    public AuthService(LoginSqlManager loginSqlManager) { _loginSqlManager = loginSqlManager; }
+
+    public async Task<List<TokenDataModel>?> SignInAsync(SignInRequest request)
     {
         if (request == null || request.Password == null || request.Username == null)
             return null;
-        LoginDataModel? data = await LoginJsonManager.TryLoadUserAsync(request.Username);
+        //LoginDataModel? data = await LoginJsonManager.TryLoadUserAsync(request.Username);
+        LoginDataModel? data = await LoginSqlManager.GetUserByUsernameAsync(request.Username);
         if (data == null || data.Password == null || data.Id == null)
             return null;
         if (!PasswordService.IsPasswordValid(request.Password, data.Password))
@@ -18,7 +23,7 @@ public static class AuthService
         return await TokenService.GenerateTokenAsync(data.Id, request.RememberBrowser);
     }
 
-    public async static Task<(bool isToken, List<SignUpError>? errors, TokenDataModel? tokenData)> SignUpAsync(SignUpRequest signUpRequest)
+    public async Task<(bool isToken, List<SignUpError>? errors, TokenDataModel? tokenData)> SignUpAsync(SignUpRequest signUpRequest)
     {
         if (signUpRequest == null)
             return (false, new List<SignUpError> { SignUpError.invalidRequest }, null);
@@ -52,5 +57,5 @@ public static class AuthService
         return (true, null, tokens.FirstOrDefault());
     }
 
-    public async static Task<(bool isTokenValid, List<TokenDataModel>? tokenData)> IsVerified(Dictionary<string, TokenType> tokens) => await TokenService.IsTokenValidAsync(tokens);
+    public async Task<(bool isTokenValid, List<TokenDataModel>? tokenData)> IsVerified(Dictionary<string, TokenType> tokens) => await TokenService.IsTokenValidAsync(tokens);
 }
