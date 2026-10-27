@@ -9,9 +9,11 @@ namespace MeChatness.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly string _connString;
+    private readonly IConfiguration _connString;
 
-    public HomeController(IConfiguration config) { _connString = config.GetConnectionString("Default")!; }
+    const int AdditionalDaysForRefreshToken = 60;
+
+    public HomeController(IConfiguration config) { _connString = config; }
 
     public async Task<IActionResult> Index()
     {
@@ -48,13 +50,13 @@ public class HomeController : Controller
 
         foreach (var token in tokenList)
         {
-           Response.Cookies.Append(token.TokenType.ToString(), token.Token, new CookieOptions
-           {
-               HttpOnly = true,
-               Secure = true,
-               SameSite = SameSiteMode.Lax,
-               Expires
-           });
+            Response.Cookies.Append(token.TokenType.ToString(), token.Token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Lax,
+                Expires = token.TokenType == TokenType.RefreshToken ? token.Expiration.AddDays(AdditionalDaysForRefreshToken) : token.Expiration
+            });
         }
 
         return true;

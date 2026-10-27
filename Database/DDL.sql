@@ -25,15 +25,6 @@ CREATE TABLE Setting (
 
 CREATE TABLE WorkingSection (workingSection_id INT AUTO_INCREMENT PRIMARY KEY, workingSection VARCHAR(50));
 
-CREATE TABLE User_WokingSection (
-	user_workingSection INT AUTO_INCREMENT, 
-    workingSection_id INT NOT NULL, 
-    user_id INT NOT NULL,
-    FOREIGN KEY (workingSection_id)
-		REFERENCES WorkingSection(workingSection_id),
-	FOREIGN KEY (user_id)
-		REFERENCES User(user_id));
-
 CREATE TABLE User (
 	user_id INT AUTO_INCREMENT NOT NULL,
 	username VARCHAR(30) NOT NULL,
@@ -65,14 +56,32 @@ CREATE TABLE User (
         ON DELETE SET NULL,
 	PRIMARY KEY (user_id, username));
     
-CREATE TABLE User_WokingSection (
-	user_workingSection INT AUTO_INCREMENT, 
-    workingSection_id INT NOT NULL, 
+CREATE TABLE Tokentype (
+	tokentype_id INT AUTO_INCREMENT PRIMARY KEY,
+    tokentype VARCHAR(50));
+    
+CREATE TABLE Token (
+	token_id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(255),
+    expires_at DATETIME NOT NULL,
+    created_at DATETIME NOT NULL,
+    tokentype_id INT NOT NULL,
+    user_id INT NOT NULL,
+    FOREIGN KEY (tokentype_id)
+		REFERENCES Tokentype(tokentype_id),
+	FOREIGN KEY (user_id)
+		REFERENCES User(user_id));
+    
+    
+CREATE TABLE User_WorkingSection (
+    user_workingSection_id INT AUTO_INCREMENT PRIMARY KEY,
+    workingSection_id INT NOT NULL,
     user_id INT NOT NULL,
     FOREIGN KEY (workingSection_id)
-		REFERENCES WorkingSection(workingSection_id),
-	FOREIGN KEY (organisation_id)
-		REFERENCES Organisation(organisation_id));
+        REFERENCES WorkingSection(workingSection_id),
+    FOREIGN KEY (user_id)
+        REFERENCES User(user_id)
+);
     
 CREATE TABLE Organisation (
 	organisation_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -95,6 +104,16 @@ CREATE TABLE User_Organisation (
 	FOREIGN KEY (permission_id)
 		REFERENCES Permission(permission_id)
         ON DELETE SET NULL);
+	
+CREATE TABLE Organisation_WorkingSection (
+    organisation_workingSection_id INT AUTO_INCREMENT PRIMARY KEY,
+    workingSection_id INT NOT NULL,
+    organisation_id INT NOT NULL,
+    FOREIGN KEY (workingSection_id)
+        REFERENCES WorkingSection(workingSection_id),
+    FOREIGN KEY (organisation_id)
+        REFERENCES Organisation(organisation_id)
+);
 
 CREATE TABLE Section (section_id INT AUTO_INCREMENT PRIMARY KEY, organisation_id INT NOT NULL, FOREIGN KEY (organisation_id) REFERENCES Organisation(organisation_id));
 
@@ -119,7 +138,9 @@ CREATE TABLE Contact (
     has_first_user_seen BOOLEAN,
     second_user_id INT NOT NULL,
     has_second_user_seen BOOLEAN,
-    FOREIGN KEY (first_user_id, second_user_id)
+    FOREIGN KEY (first_user_id)
+		REFERENCES User(user_id),
+	FOREIGN KEY (second_user_id)
 		REFERENCES User(user_id));
         
 CREATE TABLE Message (
