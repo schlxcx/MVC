@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj": {}
+    "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj": {}
   },
   "projects": {
-    "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj": {
+    "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj",
+        "projectUniqueName": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj",
         "projectName": "MeChatness",
-        "projectPath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj",
+        "projectPath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\obj\\",
+        "outputPath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

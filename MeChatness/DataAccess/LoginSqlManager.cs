@@ -1,5 +1,6 @@
 ﻿using MeChatness.Models;
 using MySqlConnector;
+using MeChatness.Services;
 
 namespace MeChatness.DataAccess;
 
@@ -11,7 +12,7 @@ public class LoginSqlManager
 
     public async Task<List<LoginDataModel>?> GetAllUserAsync()
     {
-        List<LoginDataModel> userList = null;
+        List<LoginDataModel>? userList = null;
 
         try
         {
@@ -60,5 +61,27 @@ public class LoginSqlManager
         }
         catch (Exception ex) { }
         return user;
+    }
+
+    public async Task<(bool isSuccessful, List<SignUpError>? error, int? id)> TryCreateUser(LoginDataModel user)
+    {
+        try
+        {
+            if (await GetUserByUsernameAsync(user.Username!) == null)
+                return (false, [ SignUpError.usernameAlreadyTaken ], null);
+
+            using var conn = new MySqlConnection(_connString);
+            conn.Open();
+            using var cmd = new MySqlCommand($"INSERT INTO user (username, email, password, color, secondary_color) VALUES ('{user.Username}', '{user.Email}', '{user.Password}', '{Generator.GetRandomDarkHexColor()}', '{Generator.GetRandomDarkHexColor()}'", conn);
+            await cmd.ExecuteNonQueryAsync();
+
+            int? id = (await GetUserByUsernameAsync(user.Username!))?.Id;
+
+            if (id != null)
+                return (true, null, id);
+        }
+        catch (Exception ex) { }
+
+        return (false, [SignUpError.aMistakeHappened], null);
     }
 }

@@ -5,9 +5,16 @@ namespace MeChatness.Services;
 
 public class AuthService
 {
-    private readonly LoginSqlManager _loginSqlManager;
+    private readonly IConfiguration _config;
+    private static LoginSqlManager LoginSqlManager;
+    private static TokenService TokenService;
 
-    public AuthService(LoginSqlManager loginSqlManager) { _loginSqlManager = loginSqlManager; }
+    public AuthService(IConfiguration config) 
+    {
+        _config = config;
+        LoginSqlManager = new LoginSqlManager(config);
+        TokenService = new TokenService(config);
+    }
 
     public async Task<List<TokenDataModel>?> SignInAsync(SignInRequest request)
     {
@@ -44,10 +51,12 @@ public class AuthService
         }
 
         string hashedPassword = PasswordService.HashPassword(signUpRequest.Password);
+
+        LoginDataModel user = new LoginDataModel { Username = signUpRequest.Username, Email = signUpRequest.Email, Password = signUpRequest.Password };
         
-        var (isSuccessful, errors, id) = await LoginJsonManager.TrySaveUserAsync(signUpRequest);
+        var (isSuccessful, error, id) = await LoginSqlManager.TryCreateUser(user);
         if (!isSuccessful || id == null)
-            return (false, errors, null);
+            return (false, new List<SignUpError>() { error }, null);
 
         List<TokenDataModel>? tokens = await TokenService.GenerateTokenAsync(id.Value);
 

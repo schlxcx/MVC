@@ -4,12 +4,21 @@ using MeChatness.DataAccess;
 
 namespace MeChatness.Services;
 
-public static class TokenService
+public class TokenService
 {
-    public static async Task<List<TokenDataModel>?> GenerateTokenAsync(int userId, bool containsRefreshToken = false, List<string>? tokens = null, bool isOnlyRefreshToken = false) => await CreateTokenAsync(userId, containsRefreshToken, tokens, isOnlyRefreshToken);
-    public static async Task<(bool isTokenValid, List<TokenDataModel>? tokenList)> IsTokenValidAsync(Dictionary<string, TokenType> tokens) => await CheckTokenIsValidAsync(tokens);
+    private readonly IConfiguration _config;
+    private static TokenSqlManager TokenSqlManager;
 
-    private static async Task<List<TokenDataModel>> CreateTokenAsync(int userId, bool containsRefreshToken, List<string>? tokens, bool isOnlyRefreshToken)
+    public TokenService(IConfiguration config)
+    {
+        _config = config;
+        TokenSqlManager = new TokenSqlManager(config);
+    }
+
+    public async Task<List<TokenDataModel>?> GenerateTokenAsync(int userId, bool containsRefreshToken = false, List<string>? tokens = null, bool isOnlyRefreshToken = false) => await CreateTokenAsync(userId, containsRefreshToken, tokens, isOnlyRefreshToken);
+    public async Task<(bool isTokenValid, List<TokenDataModel>? tokenList)> IsTokenValidAsync(Dictionary<string, TokenType> tokens) => await CheckTokenIsValidAsync(tokens);
+
+    private async Task<List<TokenDataModel>> CreateTokenAsync(int userId, bool containsRefreshToken, List<string>? tokens, bool isOnlyRefreshToken)
     {
         string token = "";
         List<TokenDataModel>? tokenDatas = await TokenJsonManager.TryLoadAllTokensAsync();
@@ -87,7 +96,7 @@ public static class TokenService
         return tokensToReturn;
     }
 
-    private static async Task<(bool isTokenValid, List<TokenDataModel>? tokenList)> CheckTokenIsValidAsync(Dictionary<string, TokenType> tokens)
+    private async Task<(bool isTokenValid, List<TokenDataModel>? tokenList)> CheckTokenIsValidAsync(Dictionary<string, TokenType> tokens)
     {
         List<TokenDataModel>? tokenDatas = await TokenJsonManager.TryLoadAllTokensAsync();
         if (tokenDatas == null)

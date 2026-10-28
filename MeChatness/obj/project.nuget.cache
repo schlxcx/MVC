@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pXhu9TNS0gk=",
+  "dgSpecHash": "hsBMhRNAIXU=",
   "success": true,
-  "projectFilePath": "P:\\00_Projects\\Schulprojekte\\01_MeChatness\\MeChatness\\MeChatness.csproj",
+  "projectFilePath": "C:\\Users\\conno\\Desktop\\indivituelle Projekte\\02_Projekte\\01_Messenger_Meeting_Webseite\\MeChatness\\MeChatness\\MeChatness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conno\\.nuget\\packages\\isopoh.cryptography.argon2\\2.0.0\\isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
     "C:\\Users\\conno\\.nuget\\packages\\isopoh.cryptography.blake2b\\2.0.0\\isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",

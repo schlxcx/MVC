@@ -9,11 +9,16 @@ namespace MeChatness.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly IConfiguration _connString;
+    private readonly IConfiguration _config;
+    private static AuthService AuthService;
 
     const int AdditionalDaysForRefreshToken = 60;
 
-    public HomeController(IConfiguration config) { _connString = config; }
+    public HomeController(IConfiguration config) 
+    { 
+        _config = config;
+        AuthService = new AuthService(config);
+    }
 
     public async Task<IActionResult> Index()
     {

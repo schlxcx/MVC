@@ -441,6 +441,11 @@ INSERT INTO WorkingSection (workingSection) VALUES
 ('Projektmanagement'),
 ('Gebäudemanagement');
 
+INSERT INTO Tokentype (tokentype)
+VALUES
+('AccessToken'),
+('RefreshToken');
+
 -- Im Programm muss eine Option sein, um mehrere Städte hinzufügen
 
 -- Commit / Rollback:
